@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>saizeriya OES</title>
+    <meta charset="UTF-8" />
+  <style>
+    body {
+  margin: 0;
+  color: black;
+  font-family: sans-serif;
+}
+
+button {
+  color: #219228;
+  font-size: 20px;
+}
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #219228;
+  color: white;
+  font-size: 10px;
+  width: 100%;
+}
+
+header {
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+}
+
+#underButton{
+  display: none;
+  
+}
+
+  </style>
+  </head>
+  <body>
+    <header><h1>いらっしゃいませ</h1></header>
+    <footer><p>&copy;2025 Saizeriya Co,. Ltd. All rights reserved.</p></footer>
+    
+    <div id="underButton">
+      <button type="button" name="order"><b>注文<br>追加</button>
+      <button type="button" name="order"><b>注文<br>かご</button>
+      <button type="button" name="order"><b>注文<br>履歴</button>
+      <button type="button" name="order"><b>店員<br>呼出</button>
+      <button type="button" name="order"><b>会計<br>する</button>
+    </div>
+    
+  </body>
+</html>
